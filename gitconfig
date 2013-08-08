@@ -1,3 +1,40 @@
 [user]
 	name = paulthegeek
 	email = pj2454@gmail.com
+
+[alias]
+             s       = status -sb
+
+[core]
+            filemode = true
+    logallrefupdates = true
+          whitespace = space-before-tab, trailing-space
+              editor = subl -n
+            autocrlf = input
+
+[color]
+                  ui = auto
+
+[color "diff"]
+                meta = blue bold
+                frag = magenta bold
+                 old = red bold
+                 new = green bold
+
+[color "branch"]
+             current = yellow reverse
+               local = yellow bold
+              remote = green bold
+               plain = red bold
+
+[color "status"]
+               added = yellow
+             changed = green bold
+           untracked = blue bold
+
+[format]
+              pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+
+[merge]
+                tool = opendiff
+             summary = true
