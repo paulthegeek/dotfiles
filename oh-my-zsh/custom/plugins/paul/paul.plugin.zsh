@@ -1,5 +1,5 @@
 unsetopt correct_all
-
+export EDITOR='sublime -n'
 # Sublime Editor
 alias sub='sublime -n .'
 alias subd='sublime -n'
@@ -8,6 +8,9 @@ alias subd='sublime -n'
 alias g='git'
 alias gs='git status'
 alias gc='git checkout'
+alias gp='git pull'
+alias gd='git diff'
+alias gpo='git pull origin'
 
 #Bundler
 alias b='bundle'

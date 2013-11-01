@@ -9,7 +9,7 @@
             filemode = true
     logallrefupdates = true
           whitespace = space-before-tab, trailing-space
-              editor = subl -n
+	editor = sublime -n -w
             autocrlf = input
 
 [color]
