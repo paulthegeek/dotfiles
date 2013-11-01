@@ -1,0 +1,10 @@
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+#Ignore OS files
+doc/
+*.swp
+*~
+.project
+.DS_Store
