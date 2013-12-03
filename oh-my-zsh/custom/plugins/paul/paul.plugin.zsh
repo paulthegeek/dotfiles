@@ -26,3 +26,7 @@ alias reload='. ~/.zshrc'
 
 # List Directory Content
 alias l='ls -a'
+
+# Open Directories
+alias src='cd src'
+alias dev='cd src/dev'
