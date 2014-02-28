@@ -1,8 +1,10 @@
 unsetopt correct_all
 export EDITOR='sublime -n'
 # Sublime Editor
-alias sub='sublime -n .'
-alias subd='sublime -n'
+alias sub='sublime -n'
+
+#Atom Editor
+alias at='atom -n'
 
 # Git
 alias g='git'
@@ -17,6 +19,9 @@ alias b='bundle'
 alias be='bundle exec'
 alias bi='bundle install'
 
+#guard
+alias gu='bundle exec guard'
+
 #Rails
 alias rs='./script/rails s'
 alias rc='./script/rails c'
@@ -28,5 +33,5 @@ alias reload='. ~/.zshrc'
 alias l='ls -a'
 
 # Open Directories
-alias src='cd src'
-alias dev='cd src/dev'
+alias src='cd ~/src'
+alias dev='cd ~/src/dev'
