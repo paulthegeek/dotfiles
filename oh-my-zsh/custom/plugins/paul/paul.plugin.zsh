@@ -1,7 +1,7 @@
 unsetopt correct_all
 export EDITOR='sublime -n'
 # Sublime Editor
-alias sub='sublime -n'
+alias sb='subl -n'
 
 #Atom Editor
 alias at='atom -n'
