@@ -18,8 +18,8 @@ alias be='bundle exec'
 alias bi='bundle install'
 
 #Rails
-alias rs='./script/rails s'
-alias rc='./script/rails c'
+alias rs='be rails s'
+alias rc='be rails c'
 
 #ZSH
 alias reload='. ~/.zshrc'
@@ -28,5 +28,5 @@ alias reload='. ~/.zshrc'
 alias l='ls -a'
 
 # Open Directories
-alias src='cd src'
-alias dev='cd src/dev'
+alias src='cd ~/src'
+alias dev='cd ~/src/dev'
