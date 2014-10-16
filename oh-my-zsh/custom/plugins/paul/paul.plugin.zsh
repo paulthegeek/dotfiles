@@ -1,8 +1,10 @@
 unsetopt correct_all
 export EDITOR='sublime -n'
 # Sublime Editor
-alias sub='sublime -n .'
-alias subd='sublime -n'
+alias sb='subl -n'
+
+#Atom Editor
+alias at='atom -n'
 
 # Git
 alias g='git'
@@ -16,6 +18,9 @@ alias gpo='git pull origin'
 alias b='bundle'
 alias be='bundle exec'
 alias bi='bundle install'
+
+#guard
+alias gu='bundle exec guard'
 
 #Rails
 alias rs='be rails s'
