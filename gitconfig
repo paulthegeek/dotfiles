@@ -6,3 +6,5 @@
 [merge]
                 tool = opendiff
              summary = true
+[push]
+	default = simple
