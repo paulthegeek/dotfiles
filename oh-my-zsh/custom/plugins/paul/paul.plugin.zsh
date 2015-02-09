@@ -1,10 +1,6 @@
-unsetopt correct_all
-export EDITOR='atom'
+export EDITOR='sublime'
 # Sublime Editor
 alias sb='subl -n'
-
-#Atom Editor
-alias at='atom -n'
 
 # Git
 alias g='git'
