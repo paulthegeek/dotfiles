@@ -1,14 +1,17 @@
 export EDITOR='sublime'
-# Sublime Editor
+#Sublime Editor
 alias sb='subl -n'
 
-# Git
+#Git
 alias g='git'
 alias gs='git status'
 alias gc='git checkout'
 alias gp='git pull'
 alias gd='git diff'
 alias gpo='git pull origin'
+
+#Utopia
+alias ut='utopia'
 
 #Bundler
 alias b='bundle'

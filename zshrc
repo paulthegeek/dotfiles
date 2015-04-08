@@ -36,3 +36,6 @@ source ~/.nvm/nvm.sh
 # Customize to your needs...
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
