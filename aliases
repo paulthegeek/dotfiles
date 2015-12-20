@@ -1,0 +1,34 @@
+#Bundler
+alias b='bundle'
+alias be='bundle exec'
+alias bi='bundle install'
+
+#Directories
+alias l='ls -a'
+alias src='cd ~/src/'
+alias dev='cd ~/src/dev/'
+alias df='cd ~/src/dotfiles'
+
+#Git
+alias g='git'
+alias gs='git status'
+alias gc='git checkout'
+alias gp='git pull'
+alias gf='git fetch'
+
+#Rails
+alias rs='bin/rails server'
+alias rc='bin/rails console'
+
+#Shell
+alias c='clear'
+
+#VIM
+alias v='vim'
+
+#Tmux
+alias tm='tmux'
+
+#Zsh
+alias reload='. ~/.zshrc'
+

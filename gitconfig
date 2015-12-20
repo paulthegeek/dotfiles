@@ -1,3 +1,5 @@
+[init]
+  templatedir = ~/.git_template
 [user]
 	name = paulthegeek
 	email = pj2454@gmail.com
@@ -7,6 +9,15 @@
   tool = opendiff
   summary = true
 [push]
-	default = simple
+	default = current
 [core]
-	editor = ~/bin/subl
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
