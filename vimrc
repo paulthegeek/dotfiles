@@ -20,6 +20,7 @@ Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'scrooloose/nerdtree'
+Plugin 'slim-template/vim-slim'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
@@ -62,6 +63,9 @@ set shiftwidth=2
 set shiftround
 set expandtab
 
+" Show extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
 " Show line numbers
 set number
 set numberwidth=2
@@ -69,6 +73,16 @@ set numberwidth=2
 " Make it obvious where 80 characters is
 set textwidth=80
 set colorcolumn=+1
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
+" Quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
