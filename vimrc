@@ -1,34 +1,29 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+filetype plugin indent on     " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/plugged')
 
 " Install the awesomeness
-Plugin 'bling/vim-airline'
-Plugin 'christoomey/vim-tmux-runner'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'gabebw/vim-spec-runner'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'kien/ctrlp.vim'
-Plugin 'marcweber/vim-addon-mw-utils'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'pbrisbin/vim-mkdir'
-Plugin 'scrooloose/nerdtree'
-Plugin 'slim-template/vim-slim'
-Plugin 'tomtom/tlib_vim'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-surround'
-Plugin 'vim-ruby/vim-ruby'
+Plug 'bling/vim-airline'
+Plug 'christoomey/vim-tmux-runner'
+Plug 'flazz/vim-colorschemes'
+Plug 'gabebw/vim-spec-runner'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+Plug 'kien/ctrlp.vim'
+Plug 'marcweber/vim-addon-mw-utils'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'pbrisbin/vim-mkdir'
+Plug 'scrooloose/nerdtree'
+Plug 'slim-template/vim-slim'
+Plug 'tomtom/tlib_vim'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby'
 
-call vundle#end()            " required
-filetype plugin indent on    " required
+call plug#end()
 
 
 " Leader
