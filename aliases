@@ -15,10 +15,12 @@ alias gs='git status'
 alias gc='git checkout'
 alias gp='git pull'
 alias gf='git fetch'
+alias gr='git rebase'
 
 #Rails
-alias rs='bin/rails server'
-alias rc='bin/rails console'
+alias rs='./bin/rails server'
+alias rc='./bin/rails console'
+alias rk='./bin/rake'
 
 #Shell
 alias c='clear'

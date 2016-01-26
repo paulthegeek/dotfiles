@@ -19,6 +19,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'slim-template/vim-slim'
 Plug 'tomtom/tlib_vim'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-haml'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
@@ -57,9 +58,6 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
-
-" Show extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
 
 " Show line numbers
 set number
