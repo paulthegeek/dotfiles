@@ -17,6 +17,9 @@ alias gp='git pull'
 alias gf='git fetch'
 alias gr='git rebase'
 
+#Heroku
+alias fs='foreman start'
+
 #Rails
 alias rs='./bin/rails server'
 alias rc='./bin/rails console'
