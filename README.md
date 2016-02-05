@@ -1,11 +1,18 @@
 Welcome to My Dotfiles
 ======================
 
-Zsh Theme
+Zsh
 ---------
-* [Simple](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/simple.zsh-theme)
+#### Plugin Manager
+  * [Antigen](https://github.com/zsh-users/antigen)
 
-iTerm Preferences
+#### Theme
+  * [Simple](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/simple.zsh-theme)
+
+iTerm/Terminal Preferences
 -----------------
-* [Inconsolata-dz Font](https://www.dropbox.com/s/rfef1168ra5kqeh/Inconsolata-dz.otf?dl=0)
-* [One Dark](https://www.dropbox.com/sh/oes1j5xti1b7d9i/AACxfZbC5vVPoI3qVqVFv1ata?dl=0) & [Light](https://www.dropbox.com/sh/lv6vceiyhg8z19x/AAAQutnR6YsQeRvZKpULsqfca?dl=0)
+#### Font
+  * Inconsolata-dz Font([Learn about it](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)) ([Download](https://www.dropbox.com/s/rfef1168ra5kqeh/Inconsolata-dz.otf?dl=0))
+
+#### Theme
+* [One Dark & Light](https://github.com/nathanbuchar/atom-one-dark-terminal)
