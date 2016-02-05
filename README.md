@@ -1,8 +1,6 @@
 Welcome to My Dotfiles
 ======================
 
-## What am I using?
-
 Zsh Theme
 ---------
 * [Simple](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/simple.zsh-theme)
