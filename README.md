@@ -12,7 +12,7 @@ Zsh
 iTerm/Terminal Preferences
 -----------------
 #### Font
-  * Inconsolata-dz Font([Learn about it](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)) ([Download](https://www.dropbox.com/s/rfef1168ra5kqeh/Inconsolata-dz.otf?dl=0))
+  * [Inconsolata-dz Font](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/) ([Download](https://www.dropbox.com/s/rfef1168ra5kqeh/Inconsolata-dz.otf?dl=0))
 
 #### Theme
 * [One Dark & Light](https://github.com/nathanbuchar/atom-one-dark-terminal)
