@@ -8,7 +8,7 @@ antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 #Theme
-antigen theme af-magic
+antigen theme simple
 
 #Tell antigen we are done.
 antigen apply
