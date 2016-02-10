@@ -20,6 +20,10 @@ alias gr='git rebase'
 #Heroku
 alias fs='foreman start'
 
+#Make
+alias mk='make'
+alias mks='make -s'
+
 #Rails
 alias rs='./bin/rails server'
 alias rc='./bin/rails console'
