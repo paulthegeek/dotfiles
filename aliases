@@ -38,6 +38,9 @@ alias v='vim'
 #Tmux
 alias tm='tmux'
 
+#Valgrind
+alias vg='valgrind'
+
 #Zsh
 alias reload='. ~/.zshrc'
 

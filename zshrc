@@ -17,8 +17,8 @@ antigen apply
 
 export EDITOR='vim'
 
-export PATH="$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
-eval "$(rbenv init - --no-rehash zsh)"
+export PATH="$HOME/.rbenv/bin:/.bin:/usr/local/bin:/usr/local/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+eval "$(rbenv init -)"
 
-export NVM_DIR="/Users/metropolis/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
