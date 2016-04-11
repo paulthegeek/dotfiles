@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 " Install the awesomeness
 Plug 'bling/vim-airline'
 Plug 'christoomey/vim-tmux-runner'
+Plug 'elzr/vim-json'
 Plug 'flazz/vim-colorschemes'
 Plug 'gabebw/vim-spec-runner'
 Plug 'garbas/vim-snipmate'
@@ -15,6 +16,7 @@ Plug 'justinmk/vim-syntax-extra'
 Plug 'kien/ctrlp.vim'
 Plug 'marcweber/vim-addon-mw-utils'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'pangloss/vim-javascript'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'scrooloose/nerdtree'
 Plug 'slim-template/vim-slim'
@@ -24,7 +26,6 @@ Plug 'tpope/vim-haml'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
-Plug 'pangloss/vim-javascript'
 
 call plug#end()
 
