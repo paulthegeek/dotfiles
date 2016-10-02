@@ -16,3 +16,8 @@ iTerm/Terminal Preferences
 
 #### Theme
 * [One Dark & Light](https://github.com/nathanbuchar/atom-one-dark-terminal)
+
+Vim
+-----------------
+#### Plugin Manager
+  *[Vim Plug](https://github.com/junegunn/vim-plug)

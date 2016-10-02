@@ -67,7 +67,7 @@ set number
 set numberwidth=2
 
 " Make it obvious where 80 characters is
-set textwidth=80
+set textwidth=120
 set colorcolumn=+1
 
 " Open new split panes to right and bottom, which feels more natural
