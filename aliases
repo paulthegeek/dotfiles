@@ -4,7 +4,7 @@ alias be='bundle exec'
 alias bi='bundle install'
 
 #Directories
-alias l='ls -a'
+alias l='ls -ohA'
 alias src='cd ~/src/'
 alias dev='cd ~/src/dev/'
 alias df='cd ~/src/dotfiles'
