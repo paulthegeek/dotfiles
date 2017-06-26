@@ -25,6 +25,7 @@ alias mk='make'
 alias mks='make -s'
 
 #Rails
+alias br='./bin/rails'
 alias rs='./bin/rails server'
 alias rc='./bin/rails console'
 alias rk='./bin/rake'
